@@ -1,0 +1,61 @@
+body {
+	margin:0;
+	padding:0;
+}
+
+.wrapper {
+	margin: 2rem auto;
+	width: 50%;
+	border: 1px solid #444;
+	padding: 1rem;
+}
+
+.this_month_loan {
+	/*padding: 1rem;*/
+	margin-bottom: 1rem;
+}
+
+.this_month_loan h5,
+.this_month_loan h2 {
+	margin:0;
+	padding:0;
+}
+
+.this_month_loan h5 {
+	color: #555555;
+}
+
+.this_month_loan h2 {
+	color: #333333;
+}
+
+.search_loan {
+	width: 100%;
+	/*padding: 0 1rem;*/
+}
+
+ul.loan_list {
+	list-style: none;
+	padding: 1rem;
+	height: 500px;
+	overflow-y: scroll;
+	border: 1px solid #444;
+}
+
+.loan_list_item {
+	padding: 1rem;
+	border: 1px solid #444;
+	margin-bottom: 1rem;
+}
+
+.loan_list_item p {
+	margin: 0;
+}
+
+.loan_list_item p:nth-child(6) {
+	margin-bottom: 8px;
+}
+
+.loan_list_item p span {
+	font-style: bold;
+}
